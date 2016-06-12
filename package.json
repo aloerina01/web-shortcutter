@@ -1,13 +1,16 @@
 {
-  "name": "src",
-  "main": "./lib/src",
+  "name": "web-shortcutter",
+  "main": "./lib/web-shortcutter",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "src:toggle"
+    "atom-workspace": "web-shortcutter:toggle"
   },
-  "repository": "https://github.com/atom/src",
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:aloerina01/web-shortcutter.git"
+    },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
