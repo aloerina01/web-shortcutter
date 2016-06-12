@@ -1,4 +1,4 @@
-# src package
+# web-shortcutter package
 
 A short description of your package.
 

@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle src",
-        "command": "src:toggle"
+        "label": "Toggle web-shortcutter",
+        "command": "web-shortcutter:toggle"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "src",
+          "label": "web-shortcutter",
           "submenu": [
             {
               "label": "Toggle",
-              "command": "src:toggle"
+              "command": "web-shortcutter:toggle"
             }
           ]
         }
