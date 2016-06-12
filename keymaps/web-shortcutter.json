@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-q": "web-shortcutter:toggle"
+    "ctrl-alt-o": "web-shortcutter:toggle"
   }
 }
