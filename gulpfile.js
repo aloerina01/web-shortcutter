@@ -3,8 +3,9 @@ var gulpCoffee = require('gulp-coffee');
 var less = require('gulp-less');
 
 gulp.task('coffee', function(){
-  gulp.src('lib/*')
-    .pipe(gulpCoffee());
+  gulp.src('./lib/*.coffee')
+    .pipe(gulpCoffee())
+    .pipe(gulp.dest('./lib'));
 });
 
 gulp.task('less', function(){
