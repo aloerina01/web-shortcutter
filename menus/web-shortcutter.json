@@ -17,6 +17,10 @@
             {
               "label": "Toggle",
               "command": "web-shortcutter:toggle"
+            },
+            {
+              "label": "Setting",
+              "command": "web-shortcutter:setting"
             }
           ]
         }
