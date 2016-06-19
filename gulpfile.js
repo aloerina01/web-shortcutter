@@ -5,7 +5,7 @@ var less = require('gulp-less');
 gulp.task('coffee', function(){
   gulp.src('./lib/*.coffee')
     .pipe(gulpCoffee())
-    .pipe(gulp.dest('./lib'));
+    .pipe(gulp.dest('./lib/js'));
 });
 
 gulp.task('less', function(){
