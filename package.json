@@ -15,7 +15,10 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fs": "0.0.2",
+    "fuzzaldrin-plus": "^0.3.1"
+  },
   "devDependencies": {
     "atom-space-pen-views": "^2.2.0",
     "fuzzaldrin": "^2.1.0",
