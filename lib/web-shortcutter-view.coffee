@@ -46,3 +46,6 @@ class WebShortcutterView extends SelectListView
       @hide()
     else
       @show()
+
+  getEmptyMessage: ->
+    'No bookmark'
