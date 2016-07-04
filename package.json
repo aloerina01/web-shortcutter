@@ -1,7 +1,7 @@
 {
   "name": "web-shortcutter",
   "main": "./lib/web-shortcutter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "You can open your favorite files and web-site.",
   "keywords": [],
   "activationCommands": {
