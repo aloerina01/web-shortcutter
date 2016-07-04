@@ -1,15 +1,15 @@
 {
   "name": "web-shortcutter",
   "main": "./lib/web-shortcutter",
-  "version": "0.0.0",
-  "description": "You can open your favorite files and web-site.",
-  "keywords": [],
+  "version": "0.1.1",
+  "description": "This package makes it possible to access your favorite website, file and more.",
+  "keywords": ["bookmark", "open"],
   "activationCommands": {
     "atom-workspace": "web-shortcutter:toggle"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:aloerina01/web-shortcutter.git"
+    "url": "https://github.com/aloerina01/web-shortcutter.git"
   },
   "license": "MIT",
   "engines": {
