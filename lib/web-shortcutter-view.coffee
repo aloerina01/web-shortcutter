@@ -15,6 +15,9 @@ class WebShortcutterView extends SelectListView
     path = __dirname + '\\bookmark.json'
     JSON.parse fs.readFileSync(path, 'utf8')
 
+  getFilterKey: ->
+    'name'
+
   viewForItem: (item) ->
     "<li>#{item.name}</li>"
 
