@@ -2,7 +2,7 @@
   "name": "web-shortcutter",
   "main": "./lib/web-shortcutter",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "You can open your favorite files and web-site.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "web-shortcutter:toggle"
