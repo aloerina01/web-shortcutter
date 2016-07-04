@@ -6,21 +6,9 @@ module.exports = WebShortcutter =
   view: null
   editorsBookmarks: null
   subscriptions: null
+  self_: this
 
-  #パッケージがアクティベートされる時に呼ばれる処理
   activate: (state) ->
-
-  # @webShortcutterView = new WebShortcutterView(state.myPackageViewState)
-
-  #モーダルパネルをmy-package-viewで作成する。
-  # @modalPanel = atom.workspace.addModalPanel(item: @myPackageView.getElement(), visible: false)
-
-  #イベントを入れる管理してくれる箱のようなもの？
-  # @subscriptions = new CompositeDisposable
-
-  #コマンドを登録する。下記のtoggleメソッドと'my-package:toggle'を紐付け定義する。
-  # @subscriptions.add atom.commands.add 'atom-workspace', 'web-shortcutter:toggle': => @toggle()
-
     editorsBookmarks = []
     disposables = new CompositeDisposable
 
@@ -28,10 +16,8 @@ module.exports = WebShortcutter =
       @view ?= new WebShortcutterView()
       @view.toggle()
 
+    atom.commands.add 'atom-workspace', 'web-shortcutter:setting', ->
+      atom.workspace.open './lib/bookmark.json'
+
   #破棄処理
   deactivate: ->
-
-
-  #不明なので後日調査
-  serialize: ->
-    # myPackageViewState: @myPackageView.serialize()
