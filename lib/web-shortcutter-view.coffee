@@ -1,6 +1,4 @@
 {SelectListView, $, $$} = require 'atom-space-pen-views'
-{match} = require 'fuzzaldrin'
-fuzzaldrinPlus = require 'fuzzaldrin-plus'
 fs = require 'fs'
 shell = require 'shell'
 
