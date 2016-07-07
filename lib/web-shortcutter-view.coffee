@@ -1,6 +1,6 @@
 {SelectListView, $, $$} = require 'atom-space-pen-views'
 fs = require 'fs'
-shell = require 'shell'
+open = require 'open'
 
 module.exports =
 class WebShortcutterView extends SelectListView
@@ -22,11 +22,7 @@ class WebShortcutterView extends SelectListView
     "<li>#{item.name}</li>"
 
   confirmed: (item) ->
-    thisPlatform = process.platform
-    switch thisPlatform
-      when 'win32' then shell.openExternal(item.url)
-      when 'darwin' then exec (item.url)
-      when 'linux' then exec (item.url)
+    open item.url
     @hide();
 
   cancelled: ->
