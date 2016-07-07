@@ -17,7 +17,7 @@ module.exports = WebShortcutter =
       @view.toggle()
 
     atom.commands.add 'atom-workspace', 'web-shortcutter:setting', ->
-      atom.workspace.open './lib/bookmark.json'
+      atom.workspace.open __dirname + '\\bookmark.json'
 
   #破棄処理
   deactivate: ->
