@@ -23,7 +23,7 @@
     "fs": "0.0.2",
     "fuzzaldrin": "^2.1.0",
     "fuzzaldrin-plus": "^0.3.1",
-    "shell": "^0.3.2"
+    "open": "0.0.5"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
