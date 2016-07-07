@@ -1,7 +1,7 @@
 {
   "name": "web-shortcutter",
   "main": "./lib/web-shortcutter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This package makes it possible to access your favorite website, file and more.",
   "keywords": [
     "bookmark",
